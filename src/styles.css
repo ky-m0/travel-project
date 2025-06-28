@@ -1,8 +1,56 @@
-h1 {
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),
+    url("../images/salem-aerial.jpg");
+  background-repeat: inherit;
+  background-size: cover;
+  padding: 100px 20px 5px 20px;
+  color: #ffffff;
+  text-align: center;
+}
+
+header a {
+  display: inline-block;
+  padding: 12px 20px 10px 20px;
+  background-color: #8a2b09;
+  border-radius: 6px;
+  text-decoration: none;
+  size: 10pt;
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
+
+header a:hover {
+  background-color: #5c1b03;
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
+
+header h1,
+h2 {
   font-family: "Caladea";
 }
 
-h2,
-p {
+p,
+a {
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.image-credit {
+  text-align: right;
+}
+
+footer {
+  text-align: center;
+}
+
+@media (max-width: 900px) {
+  header {
+    padding: 40px 10px 3px 10px;
+  }
 }
