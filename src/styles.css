@@ -19,7 +19,7 @@ header {
 header a {
   display: inline-block;
   padding: 12px 20px 12px 20px;
-  background-color: #b59782;
+  background-color: #e2dfd8;
   border-radius: 6px;
   text-decoration: none;
   font-weight: bold;
@@ -30,7 +30,7 @@ header a {
 }
 
 header a:hover {
-  background-color: #90694e;
+  background-color: #ceb7a7;
   margin-top: 40px;
   margin-bottom: 60px;
 }
@@ -67,11 +67,38 @@ main {
 }
 
 .feature {
-  background-color: #1b1a1a;
+  background-color: #111111;
   padding: 60px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 32px;
+}
+
+.attractions {
+  background-color: #1b1b1b;
+  padding-top: 60px;
+  text-align: center;
+}
+
+.attractions-items {
+  padding: 60px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 32px;
+}
+
+.card {
+  background-color: #111111;
+}
+
+.card-header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 0px;
+}
+
+.card-body {
+  padding: 0px 20px 5px 20px;
 }
 
 .img-responsive {
@@ -86,11 +113,43 @@ h2 {
   color: #e2dfd8;
 }
 
-footer {
-  text-align: center;
+h3 {
+  font-size: 22pt;
+  font-family: "Unna";
+  color: #e2dfd8;
+  margin-bottom: 0;
 }
 
-@media (max-width: 900px) {
+h4 {
+  font-size: 16pt;
+  font-family: "Unna";
+  color: #e2dfd8;
+  margin-bottom: 0;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #a7284e;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 12px 20px 12px 20px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border-radius: 6px;
+}
+
+.btn:hover {
+  display: inline-block;
+  background-color: #831335;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+}
+
+@media (max-width: 800px) {
   header {
     padding: 40px 10px 3px 10px;
   }
@@ -101,6 +160,7 @@ footer {
 
   .tagline {
     font-size: 14pt;
+    font-weight: bold;
   }
 
   header a {
@@ -130,6 +190,25 @@ footer {
   }
 
   h2 {
+    font-size: 24pt;
+  }
+
+  .attractions {
+    padding-top: 30px;
+  }
+
+  .attractions-items {
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 16px;
+  }
+
+  h3 {
+    font-size: 18pt;
+  }
+
+  h4 {
     font-size: 16pt;
   }
 }
