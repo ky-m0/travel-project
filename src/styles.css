@@ -66,6 +66,11 @@ main {
   max-width: fit-content;
 }
 
+.img-responsive {
+  max-width: 100%;
+  display: block;
+}
+
 .feature {
   background-color: #111111;
   padding: 60px;
@@ -81,7 +86,7 @@ main {
 }
 
 .attractions-items {
-  padding: 60px;
+  padding: 10px 60px 60px 60px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 32px;
@@ -93,16 +98,23 @@ main {
 
 .card-header {
   display: grid;
+  height: 170px;
   grid-template-columns: 1fr 1fr;
   grid-gap: 0px;
 }
 
-.card-body {
-  padding: 0px 20px 5px 20px;
+.card-header img {
+  display: block;
+  min-height: 100%;
 }
 
-.img-responsive {
-  max-width: 100%;
+.embed {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+}
+
+.card-body {
+  padding: 0px 20px 5px 20px;
 }
 
 h2 {
@@ -198,10 +210,24 @@ footer {
   }
 
   .attractions-items {
-    padding: 30px;
+    padding: 5px 30px 30px 30px;
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 16px;
+  }
+
+  .card-header {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 0px;
+  }
+
+  .card-header img {
+    display: none;
+  }
+
+  .embed {
+    aspect-ratio: 16 / 9;
   }
 
   h3 {
