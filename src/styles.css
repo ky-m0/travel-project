@@ -24,8 +24,8 @@ header a {
   border-radius: 6px;
   text-decoration: none;
   font-weight: bold;
-  size: 10pt;
-  color: #000;
+  font-size: 12pt;
+  color: #0a0a0a;
   margin-top: 40px;
   margin-bottom: 60px;
 }
@@ -72,19 +72,29 @@ footer {
   header {
     padding: 40px 10px 3px 10px;
   }
+
   h1 {
     font-size: 32pt;
   }
+
   h2 {
     font-size: 14pt;
   }
+
   header a {
-    margin-top: 20px;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    padding: 10px 16px 10px 16px;
+    font-size: 10pt;
+  }
+
+  header a:hover {
+    margin-top: 25px;
     margin-bottom: 30px;
   }
-  header a:hover {
-    background-color: #5c1b03;
-    margin-top: 20px;
-    margin-bottom: 30px;
+
+  .image-credit {
+    margin-bottom: 5px;
+    font-size: 8pt;
   }
 }
