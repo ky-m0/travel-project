@@ -141,7 +141,7 @@ h4 {
 
 .btn {
   display: inline-block;
-  background-color: #a7284e;
+  background-color: #a3280d;
   color: #ffffff;
   text-decoration: none;
   font-weight: bold;
@@ -153,12 +153,31 @@ h4 {
 
 .btn:hover {
   display: inline-block;
-  background-color: #831335;
+  background-color: #711c08;
 }
 
 footer {
-  text-align: center;
-  padding: 10px;
+  padding: 60px 60px 10px 60px;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-gap: 32px;
+  color: #ffffff;
+  text-align: left;
+}
+
+.footer h2 {
+  font-size: 16pt;
+}
+ul {
+  padding-left: 0;
+}
+
+li {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #d3d2cd;
+  font-size: 12pt;
+  text-decoration: none;
+  list-style-type: none;
 }
 
 @media (max-width: 800px) {
