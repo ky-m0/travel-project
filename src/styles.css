@@ -293,13 +293,14 @@ li {
   }
 
   .gallery-grid {
-    padding: 30px;
+    padding: 0px 30px 30px 30px;
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 32px;
   }
 
   footer {
+    padding: 30px 30px 40px 30px;
     text-align: center;
     display: grid;
     grid-template-columns: 1fr;
