@@ -286,12 +286,25 @@ li {
     font-size: 16pt;
   }
 
+  .gallery {
+    background-color: #111111;
+    padding-top: 30px;
+    text-align: center;
+  }
+
+  .gallery-grid {
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 32px;
+  }
+
   footer {
+    text-align: center;
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 0px;
     color: #ffffff;
-    text-align: left;
   }
 
   footer h2 {
